@@ -52,10 +52,10 @@ async function fetchSchedule() {
           if (!firstTd) return;
           
           const timeParts = firstTd.split(/<br\s*\/?>/i);
-          if (timeParts.length < 2) return;
+          if (timeParts.length < 3) return;
           
-          const startTimeStr = cheerio.load(timeParts[0]).text().trim();
-          const endTimeStr = cheerio.load(timeParts[1]).text().trim();
+          const startTimeStr = cheerio.load(timeParts[1]).text().trim();
+          const endTimeStr = cheerio.load(timeParts[2]).text().trim();
           
           const [startHour, startMin] = startTimeStr.split(':').map(Number);
           const [endHour, endMin] = endTimeStr.split(':').map(Number);
@@ -80,7 +80,7 @@ async function fetchSchedule() {
              type = $part1('i').text().trim();
              room = $part1.text().replace(type, '').trim();
              if(!room && infoParts[2]) {
-                 room = cheerio.load(infoParts[2]).text().trim();
+                 room = cheerio.load(infoParts[2]).text().trim().replace(/\s+/g, ' ');
              }
           }
           
