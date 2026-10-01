@@ -1,0 +1,341 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:1OdoUWyTXe7yoqwarPxHb
+SUMMARY:Социально-психологический тренинг (Лекция)
+DTSTAMP:20261001T184934Z
+DTSTART:20260916T185500Z
+DTEND:20260916T202500Z
+DESCRIPTION:Лекция
+LOCATION:3 корпус - 101 \, пл. Основная
+END:VEVENT
+BEGIN:VEVENT
+UID:kai6rV6RctCURlDdGyGmV
+SUMMARY:Социально-психологический тренинг (Лекция)
+DTSTAMP:20261001T184934Z
+DTSTART:20260916T203000Z
+DTEND:20260916T220000Z
+DESCRIPTION:Лекция
+LOCATION:3 корпус - 101 \, пл. Основная
+END:VEVENT
+BEGIN:VEVENT
+UID:sQScNUJPcuU_SCadiK39M
+SUMMARY:Иностранный язык делового и профессионального общения (Практическое
+	 занятие)
+DTSTAMP:20261001T184934Z
+DTSTART:20260919T101000Z
+DTEND:20260919T114000Z
+DESCRIPTION:Практическое занятие
+LOCATION:6 корпус - 240 \, пл. Основная
+END:VEVENT
+BEGIN:VEVENT
+UID:fmUt3jN37lmsLWHLbDcoI
+SUMMARY:Иностранный язык делового и профессионального общения (Практическое
+	 занятие)
+DTSTAMP:20261001T184934Z
+DTSTART:20260919T115000Z
+DTEND:20260919T132000Z
+DESCRIPTION:Практическое занятие
+LOCATION:6 корпус - 240 \, пл. Основная
+END:VEVENT
+BEGIN:VEVENT
+UID:ZK7q9kwxDjhPIM6Cj0QB_
+SUMMARY:Социально-психологический тренинг (Лекция)
+DTSTAMP:20261001T184934Z
+DTSTART:20260923T185500Z
+DTEND:20260923T202500Z
+DESCRIPTION:Лекция
+LOCATION:3 корпус - 101 \, пл. Основная
+END:VEVENT
+BEGIN:VEVENT
+UID:QeD8O5Xxjqxko8Wq9Oimn
+SUMMARY:Технологии эффективного менеджмента (Лекция)
+DTSTAMP:20261001T184934Z
+DTSTART:20260924T185500Z
+DTEND:20260924T202500Z
+DESCRIPTION:Лекция
+LOCATION:3 корпус - 102 \, пл. Основная
+END:VEVENT
+BEGIN:VEVENT
+UID:GGs40-zYaR-6ytE7jpGbV
+SUMMARY:Технологии эффективного менеджмента (Лекция)
+DTSTAMP:20261001T184934Z
+DTSTART:20260924T203000Z
+DTEND:20260924T220000Z
+DESCRIPTION:Лекция
+LOCATION:3 корпус - 102 \, пл. Основная
+END:VEVENT
+BEGIN:VEVENT
+UID:X-tDmLmlMdB9zYBlkv9jV
+SUMMARY:Иностранный язык делового и профессионального общения (Практическое
+	 занятие)
+DTSTAMP:20261001T184934Z
+DTSTART:20260926T101000Z
+DTEND:20260926T114000Z
+DESCRIPTION:Практическое занятие
+LOCATION:6 корпус - 240 \, пл. Основная
+END:VEVENT
+BEGIN:VEVENT
+UID:1J5T79cE-CpiETJQdA7wC
+SUMMARY:Иностранный язык делового и профессионального общения (Практическое
+	 занятие)
+DTSTAMP:20261001T184934Z
+DTSTART:20260926T115000Z
+DTEND:20260926T132000Z
+DESCRIPTION:Практическое занятие
+LOCATION:6 корпус - 240 \, пл. Основная
+END:VEVENT
+BEGIN:VEVENT
+UID:sznxb8-u4_NK3_Y3FpbwT
+SUMMARY:Технологии эффективного менеджмента (Лекция)
+DTSTAMP:20261001T184934Z
+DTSTART:20260926T140000Z
+DTEND:20260926T153000Z
+DESCRIPTION:Лекция
+LOCATION:3 корпус - 213 \, пл. Основная
+END:VEVENT
+BEGIN:VEVENT
+UID:QABbmXZRP736wSDuUUEzc
+SUMMARY:Технологии эффективного менеджмента (Лекция)
+DTSTAMP:20261001T184934Z
+DTSTART:20260926T154000Z
+DTEND:20260926T171000Z
+DESCRIPTION:Лекция
+LOCATION:3 корпус - 203 \, пл. Основная
+END:VEVENT
+BEGIN:VEVENT
+UID:HauU7rUt5IQFwBE4Il3bb
+SUMMARY:Технологии эффективного менеджмента (Лекция)
+DTSTAMP:20261001T184934Z
+DTSTART:20260928T185500Z
+DTEND:20260928T202500Z
+DESCRIPTION:Лекция
+LOCATION:3 корпус - 103 \, пл. Основная
+END:VEVENT
+BEGIN:VEVENT
+UID:IqXS4gQxvHXgD1BbqtzPw
+SUMMARY:Технологии эффективного менеджмента (Лекция)
+DTSTAMP:20261001T184934Z
+DTSTART:20260928T203000Z
+DTEND:20260928T220000Z
+DESCRIPTION:Лекция
+LOCATION:3 корпус - 103 \, пл. Основная
+END:VEVENT
+BEGIN:VEVENT
+UID:tsO5DV1Ltu9Xx7S4i0hT7
+SUMMARY:Социально-психологический тренинг (Практическое занятие)
+DTSTAMP:20261001T184934Z
+DTSTART:20260929T185500Z
+DTEND:20260929T202500Z
+DESCRIPTION:Практическое занятие
+LOCATION:6 корпус - 308 \, пл. Основная
+END:VEVENT
+BEGIN:VEVENT
+UID:K28TkRQ0w0sHQi9wGh7bH
+SUMMARY:Социально-психологический тренинг (Практическое занятие)
+DTSTAMP:20261001T184934Z
+DTSTART:20260929T203000Z
+DTEND:20260929T220000Z
+DESCRIPTION:Практическое занятие
+LOCATION:6 корпус - 308 \, пл. Основная
+END:VEVENT
+BEGIN:VEVENT
+UID:JthxUcXMvRiZlmppomgwl
+SUMMARY:Иностранный язык делового и профессионального общения (Практическое
+	 занятие)
+DTSTAMP:20261001T184934Z
+DTSTART:20260930T185500Z
+DTEND:20260930T202500Z
+DESCRIPTION:Практическое занятие
+LOCATION:6 корпус - 240 \, пл. Основная
+END:VEVENT
+BEGIN:VEVENT
+UID:nZ4gz93n0dj2_ANhGBeOx
+SUMMARY:Иностранный язык делового и профессионального общения (Практическое
+	 занятие)
+DTSTAMP:20261001T184934Z
+DTSTART:20260930T203000Z
+DTEND:20260930T220000Z
+DESCRIPTION:Практическое занятие
+LOCATION:6 корпус - 240 \, пл. Основная
+END:VEVENT
+BEGIN:VEVENT
+UID:Vk8xNLKpeCIOgjPp2cW5F
+SUMMARY:Социально-психологический тренинг (Практическое занятие)
+DTSTAMP:20261001T184934Z
+DTSTART:20261006T185500Z
+DTEND:20261006T202500Z
+DESCRIPTION:Практическое занятие
+LOCATION:6 корпус - 308 \, пл. Основная
+END:VEVENT
+BEGIN:VEVENT
+UID:pDs70wtGG2RQYCdCvcjBx
+SUMMARY:Социально-психологический тренинг (Практическое занятие)
+DTSTAMP:20261001T184934Z
+DTSTART:20261006T203000Z
+DTEND:20261006T220000Z
+DESCRIPTION:Практическое занятие
+LOCATION:6 корпус - 308 \, пл. Основная
+END:VEVENT
+BEGIN:VEVENT
+UID:2nrtrO2jEjixPnUrmR2Xp
+SUMMARY:Иностранный язык делового и профессионального общения (Практическое
+	 занятие)
+DTSTAMP:20261001T184934Z
+DTSTART:20261007T185500Z
+DTEND:20261007T202500Z
+DESCRIPTION:Практическое занятие
+LOCATION:6 корпус - 240 \, пл. Основная
+END:VEVENT
+BEGIN:VEVENT
+UID:B5AVsNRBMpZ7iRcVyhqKA
+SUMMARY:Иностранный язык делового и профессионального общения (Практическое
+	 занятие)
+DTSTAMP:20261001T184934Z
+DTSTART:20261007T203000Z
+DTEND:20261007T220000Z
+DESCRIPTION:Практическое занятие
+LOCATION:6 корпус - 240 \, пл. Основная
+END:VEVENT
+BEGIN:VEVENT
+UID:6hd5tMeAPuta0MGI0RTX0
+SUMMARY:Технологии эффективного менеджмента (Практическое занятие)
+DTSTAMP:20261001T184934Z
+DTSTART:20261009T185500Z
+DTEND:20261009T202500Z
+DESCRIPTION:Практическое занятие
+LOCATION:6 корпус - 308 \, пл. Основная
+END:VEVENT
+BEGIN:VEVENT
+UID:ZbMhjqgZgVhvGx12rxe_3
+SUMMARY:Технологии эффективного менеджмента (Практическое занятие)
+DTSTAMP:20261001T184934Z
+DTSTART:20261009T203000Z
+DTEND:20261009T220000Z
+DESCRIPTION:Практическое занятие
+LOCATION:6 корпус - 308 \, пл. Основная
+END:VEVENT
+BEGIN:VEVENT
+UID:MEtKBuzDXL3yLzBPuNSIZ
+SUMMARY:Социально-психологический тренинг (Практическое занятие)
+DTSTAMP:20261001T184934Z
+DTSTART:20261013T185500Z
+DTEND:20261013T202500Z
+DESCRIPTION:Практическое занятие
+LOCATION:6 корпус - 308 \, пл. Основная
+END:VEVENT
+BEGIN:VEVENT
+UID:YHfNxNk7Qype1hNszvEDb
+SUMMARY:Социально-психологический тренинг (Зачет)
+DTSTAMP:20261001T184934Z
+DTSTART:20261013T203000Z
+DTEND:20261013T220000Z
+DESCRIPTION:Зачет
+LOCATION:6 корпус - 308 \, пл. Основная
+END:VEVENT
+BEGIN:VEVENT
+UID:HgQykiH8LSA2YdwhH2lu9
+SUMMARY:Иностранный язык делового и профессионального общения (Практическое
+	 занятие)
+DTSTAMP:20261001T184934Z
+DTSTART:20261014T185500Z
+DTEND:20261014T202500Z
+DESCRIPTION:Практическое занятие
+LOCATION:6 корпус - 240 \, пл. Основная
+END:VEVENT
+BEGIN:VEVENT
+UID:IBhHs12oL7Tyb1byY-2Ga
+SUMMARY:Иностранный язык делового и профессионального общения (Практическое
+	 занятие)
+DTSTAMP:20261001T184934Z
+DTSTART:20261014T203000Z
+DTEND:20261014T220000Z
+DESCRIPTION:Практическое занятие
+LOCATION:6 корпус - 240 \, пл. Основная
+END:VEVENT
+BEGIN:VEVENT
+UID:Lfd9FUk-H5vojyS703fp-
+SUMMARY:Технологии эффективного менеджмента (Практическое занятие)
+DTSTAMP:20261001T184934Z
+DTSTART:20261016T185500Z
+DTEND:20261016T202500Z
+DESCRIPTION:Практическое занятие
+LOCATION:6 корпус - 308 \, пл. Основная
+END:VEVENT
+BEGIN:VEVENT
+UID:XH16p0iOuU4KOHh1ZKAQB
+SUMMARY:Технологии эффективного менеджмента (Практическое занятие)
+DTSTAMP:20261001T184934Z
+DTSTART:20261016T203000Z
+DTEND:20261016T220000Z
+DESCRIPTION:Практическое занятие
+LOCATION:6 корпус - 308 \, пл. Основная
+END:VEVENT
+BEGIN:VEVENT
+UID:QQfWmH1J7GByak95IH3YW
+SUMMARY:Технологии эффективного менеджмента (Практическое занятие)
+DTSTAMP:20261001T184934Z
+DTSTART:20261023T185500Z
+DTEND:20261023T202500Z
+DESCRIPTION:Практическое занятие
+LOCATION:6 корпус - 308 \, пл. Основная
+END:VEVENT
+BEGIN:VEVENT
+UID:scQ244jrazFbOPeJy0YYg
+SUMMARY:Технологии эффективного менеджмента (Практическое занятие)
+DTSTAMP:20261001T184934Z
+DTSTART:20261023T203000Z
+DTEND:20261023T220000Z
+DESCRIPTION:Практическое занятие
+LOCATION:6 корпус - 308 \, пл. Основная
+END:VEVENT
+BEGIN:VEVENT
+UID:AZPnjQ9RYDfQyBK19w9Q-
+SUMMARY:Технологии эффективного менеджмента (Практическое занятие)
+DTSTAMP:20261001T184934Z
+DTSTART:20261030T185500Z
+DTEND:20261030T202500Z
+DESCRIPTION:Практическое занятие
+LOCATION:6 корпус - 308 \, пл. Основная
+END:VEVENT
+BEGIN:VEVENT
+UID:cI4_ZBtufEbMFEnJ0sax9
+SUMMARY:Технологии эффективного менеджмента (Практическое занятие)
+DTSTAMP:20261001T184934Z
+DTSTART:20261030T203000Z
+DTEND:20261030T220000Z
+DESCRIPTION:Практическое занятие
+LOCATION:6 корпус - 308 \, пл. Основная
+END:VEVENT
+BEGIN:VEVENT
+UID:4Y7Q8a5tzLNZbxj-Y1XzG
+SUMMARY:Технологии эффективного менеджмента (Практическое занятие)
+DTSTAMP:20261001T184934Z
+DTSTART:20261107T140000Z
+DTEND:20261107T153000Z
+DESCRIPTION:Практическое занятие
+LOCATION:6 корпус - 528 \, пл. Основная
+END:VEVENT
+BEGIN:VEVENT
+UID:LHoE3r_hvdQDcPuPwGiDN
+SUMMARY:Технологии эффективного менеджмента (Консультации)
+DTSTAMP:20261001T184934Z
+DTSTART:20261112T185500Z
+DTEND:20261112T202500Z
+DESCRIPTION:Консультации
+LOCATION:8 корпус - 404 \, пл. Основная
+END:VEVENT
+BEGIN:VEVENT
+UID:jObhLRipMuI41xk27Ew2T
+SUMMARY:Технологии эффективного менеджмента (Экзамен)
+DTSTAMP:20261001T184934Z
+DTSTART:20261114T140000Z
+DTEND:20261114T153000Z
+DESCRIPTION:Экзамен
+LOCATION:3 корпус - 323 \, пл. Основная
+END:VEVENT
+END:VCALENDAR
