@@ -3,7 +3,7 @@ const path = require('path');
 const cheerio = require('cheerio');
 const ics = require('ics');
 
-const GROUP_ID = '15.27Д-БИ01/25б';
+const GROUP_ID = '15.27д-би01/25б';
 const MAX_WEEKS = 20;
 const DELAY_MS = 500;
 
@@ -31,6 +31,7 @@ async function fetchSchedule() {
       }
 
       const html = await response.text();
+      console.log(`Fetched week ${weekNum}: length ${html.length}`);
       const $ = cheerio.load(html);
 
       $('table.table').each((i, table) => {
@@ -60,14 +61,20 @@ async function fetchSchedule() {
           const [startHour, startMin] = startTimeStr.split(':').map(Number);
           const [endHour, endMin] = endTimeStr.split(':').map(Number);
           
-          if (isNaN(startHour) || isNaN(startMin) || isNaN(endHour) || isNaN(endMin)) return;
+          if (isNaN(startHour) || isNaN(startMin) || isNaN(endHour) || isNaN(endMin)) {
+            console.log("NaN time:", startTimeStr, endTimeStr);
+            return;
+          }
 
           const secondTd = $tr.find('td').eq(1);
           let targetHtml = secondTd.find('a.task').html();
           if (!targetHtml) {
              targetHtml = secondTd.html();
           }
-          if (!targetHtml) return;
+          if (!targetHtml) {
+             console.log("No targetHtml for:", secondTd.html());
+             return;
+          }
 
           const infoParts = targetHtml.split(/<br\s*\/?>/i);
           const subject = infoParts[0] ? cheerio.load(infoParts[0]).text().trim() : '';
@@ -110,7 +117,7 @@ async function fetchSchedule() {
   }
 
   if (events.length > 0) {
-    console.log(`Generating ICS for ${events.length} events...`);
+    console.log("Events:", events.length); console.log(`Generating ICS for ${events.length} events...`);
     const { error, value } = ics.createEvents(events);
     
     if (error) {
