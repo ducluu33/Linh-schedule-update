@@ -85,9 +85,15 @@ async function fetchSchedule() {
           }
           
           if (subject) {
+             // Convert Moscow time (UTC+3) to UTC
+             const startDate = new Date(Date.UTC(year, month - 1, day, startHour - 3, startMin));
+             const endDate = new Date(Date.UTC(year, month - 1, day, endHour - 3, endMin));
+             
              events.push({
-               start: [year, month, day, startHour, startMin],
-               end: [year, month, day, endHour, endMin],
+               start: [startDate.getUTCFullYear(), startDate.getUTCMonth() + 1, startDate.getUTCDate(), startDate.getUTCHours(), startDate.getUTCMinutes()],
+               end: [endDate.getUTCFullYear(), endDate.getUTCMonth() + 1, endDate.getUTCDate(), endDate.getUTCHours(), endDate.getUTCMinutes()],
+               startInputType: 'utc',
+               startOutputType: 'utc',
                title: subject + (type ? ` (${type})` : ''),
                location: room,
                description: type || subject
