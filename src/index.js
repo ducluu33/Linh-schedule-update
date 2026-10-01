@@ -3,7 +3,7 @@ const path = require('path');
 const cheerio = require('cheerio');
 const ics = require('ics');
 
-const GROUP_ID = '15.23д-мум01/26м';
+const GROUP_ID = '15.27д-би01/25б';
 const MAX_WEEKS = 20;
 const DELAY_MS = 500;
 
