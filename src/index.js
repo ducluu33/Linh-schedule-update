@@ -130,6 +130,35 @@ async function fetchSchedule() {
       fs.mkdirSync(publicDir, { recursive: true });
     }
     
+    const eventsFile = path.join(publicDir, 'events.json');
+    const changesFile = path.join(publicDir, 'changes.json');
+    let changes = [];
+    
+    if (fs.existsSync(eventsFile)) {
+       const oldEvents = JSON.parse(fs.readFileSync(eventsFile, 'utf8'));
+       const serialize = e => `${e.title}|${e.start.join(',')}|${e.end.join(',')}|${e.location}`;
+       
+       const oldSet = new Set(oldEvents.map(serialize));
+       const newSet = new Set(events.map(serialize));
+       
+       for (const e of events) {
+         if (!oldSet.has(serialize(e))) {
+           const timeStr = `${e.start[2]}.${e.start[1]}.${e.start[0]} ${e.start[3]}:${e.start[4].toString().padStart(2, '0')}`;
+           changes.push(`Added: ${e.title} at ${timeStr}`);
+         }
+       }
+       for (const e of oldEvents) {
+         if (!newSet.has(serialize(e))) {
+           const timeStr = `${e.start[2]}.${e.start[1]}.${e.start[0]} ${e.start[3]}:${e.start[4].toString().padStart(2, '0')}`;
+           changes.push(`Removed: ${e.title} at ${timeStr}`);
+         }
+       }
+    }
+    
+    fs.writeFileSync(eventsFile, JSON.stringify(events, null, 2));
+    fs.writeFileSync(changesFile, JSON.stringify({ timestamp: new Date().toISOString(), changes }, null, 2));
+    console.log(`Saved changes.json with ${changes.length} changes.`);
+    
     fs.writeFileSync(path.join(publicDir, 'schedule.ics'), value);
     console.log("ICS file saved to public/schedule.ics");
   } else {
